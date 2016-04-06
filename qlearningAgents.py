@@ -8,7 +8,7 @@
 # Abbeel in Spring 2013.
 # For more info, see http://inst.eecs.berkeley.edu/~cs188/pacman/pacman.html
 
-
+# Transfer Learning was developed by Siddharthan Rajasekaran
 # All the functionalities of the transfer learning agent including the Genetic Algorithm was extended by Siddharthan
 import sympy as smp
 # sklearn not required if you have aproblem you can comment it. for more info read README
