@@ -7,7 +7,11 @@
 # Student side autograding was added by Brad Miller, Nick Hay, and Pieter 
 # Abbeel in Spring 2013.
 # For more info, see http://inst.eecs.berkeley.edu/~cs188/pacman/pacman.html
+
+
+# All the functionalities of the transfer learning agent including the Genetic Algorithm was extended by Siddharthan
 import sympy as smp
+# sklearn not required if you have aproblem you can comment it. for more info read README
 import sklearn
 from sklearn import neural_network
 #from sklearn.neural_network import MLPRegressor
