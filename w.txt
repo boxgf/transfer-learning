@@ -1,0 +1,139 @@
+Starting on 4-17 at 1:25:44
+
+Question q1
+===========
+
+*** PASS: test_cases\q1\1-tinygrid.test
+*** PASS: test_cases\q1\2-tinygrid-noisy.test
+*** PASS: test_cases\q1\3-bridge.test
+*** FAIL: test_cases\q1\4-discountgrid.test
+***     Values at iteration 2 are NOT correct.
+***        Student solution:
+***      values_k_2: """
+***               -10.0000       7.2058      10.0000       7.2467       5.2554
+***               -10.0000       0.0648   __________       0.5184       0.4199
+***               -10.0000       0.7200       1.0000       0.7200       0.5184
+***               -10.0000       0.0000   __________   __________       0.0000
+***               -10.0000       0.0000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      values_k_2: """
+***               -10.0000       7.2000      10.0000       7.2000       0.0000
+***               -10.0000       0.0000   __________       0.0000       0.0000
+***               -10.0000       0.7200       1.0000       0.7200       0.0000
+***               -10.0000       0.0000   __________   __________       0.0000
+***               -10.0000       0.0000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 2 for action north are NOT correct.
+***        Student solution:
+***      q_values_k_2_action_north: """
+***                illegal       5.1882      illegal       6.5906       4.9091
+***                illegal       4.2940   __________       5.3020       3.8683
+***                illegal      -0.7633      illegal       0.5099       0.4138
+***                illegal      -0.3816   __________   __________       0.3732
+***                illegal      -0.9000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_2_action_north: """
+***                illegal       5.1840      illegal       6.0840       0.6480
+***                illegal       4.2840   __________       5.1840       0.0000
+***                illegal      -0.8100      illegal       0.0900       0.0648
+***                illegal      -0.3816   __________   __________       0.0000
+***                illegal      -0.9000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 2 for action east are NOT correct.
+***        Student solution:
+***      q_values_k_2_action_east: """
+***                illegal       7.8544      illegal       4.4827       4.2947
+***                illegal       0.7600   __________       1.0193       0.8220
+***                illegal       0.7258      illegal       0.4847       0.4110
+***                illegal       0.0648   __________   __________       0.0467
+***                illegal       0.0000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_2_action_east: """
+***                illegal       7.8480      illegal       0.6480       0.0000
+***                illegal       0.7128   __________       0.7128       0.0000
+***                illegal       0.7200      illegal       0.0648       0.0000
+***                illegal       0.0648   __________   __________       0.0000
+***                illegal       0.0000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 2 for action south are NOT correct.
+***        Student solution:
+***      q_values_k_2_action_south: """
+***                illegal       0.0467      illegal       1.7462       1.4275
+***                illegal      -0.3758   __________       0.6028       0.4577
+***                illegal      -0.8100      illegal       0.6551       0.1115
+***                illegal      -0.9000   __________   __________       0.0000
+***                illegal      -0.9000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_2_action_south: """
+***                illegal       0.0000      illegal       0.9000       0.6480
+***                illegal      -0.3816   __________       0.5184       0.0000
+***                illegal      -0.8100      illegal       0.6084       0.0648
+***                illegal      -0.9000   __________   __________       0.0000
+***                illegal      -0.9000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     Q-Values at iteration 2 for action west are NOT correct.
+***        Student solution:
+***      q_values_k_2_action_west: """
+***                illegal      -6.5456      illegal       7.8989       5.7284
+***                illegal      -6.4867   __________       1.0902       0.8929
+***                illegal      -7.1942      illegal       0.8315       0.5562
+***                illegal      -7.1352   __________   __________       0.0467
+***                illegal      -7.2000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***        Correct solution:
+***      q_values_k_2_action_west: """
+***                illegal      -6.5520      illegal       7.8480       5.1840
+***                illegal      -6.4872   __________       0.7128       0.0000
+***                illegal      -7.2000      illegal       0.7848       0.5184
+***                illegal      -7.1352   __________   __________       0.0000
+***                illegal      -7.2000       0.0000       0.0000       0.0000
+***     """
+***     
+***     
+***     
+***     For more details to help you debug, see test output file test_cases\q1\4-discountgrid.test_output
+***     
+***     
+*** Tests failed.
+
+### Question q1: 0/6 ###
+
+
+Finished at 1:25:45
+
+Provisional grades
+==================
+Question q1: 0/6
+------------------
+Total: 0/6
+
+Your grades are NOT yet registered.  To register your grades you must
+submit your files to the edX website.  The grades obtained through the
+edX website are your final grades unless your submission was not in
+the spirit of the course,  such as if your submission simply hardcoded
+the answers to the tests.   We will screen for this after the deadline.
+
+*If you worked with a partner, you must both submit separately.*
+

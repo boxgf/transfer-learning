@@ -1,0 +1,922 @@
+Starting on 4-19 at 12:07:10
+
+Question q8
+===========
+
+(0, 0)
+(0, 2)
+(0, 0)
+(0, 2)
+(0, 0)
+(0, 2)
+(0, 0)
+(0, 2)
+*** FAIL: test_cases\q8\1-tinygrid.test
+***     Q-Values at iteration 3 for action 'exit' are NOT correct.   Student solution:
+***     	q_values_k_3_action_exit: """
+***                 0.0000
+***                illegal
+***                 2.0000
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_3_action_exit: """
+***                 0.0000
+***                illegal
+***                 1.9000
+***     """
+***     
+***     
+***     For more details to help you debug, see test output file test_cases\q8\1-tinygrid.test_output
+***     
+***     
+(0, 0)
+(0, 2)
+(0, 0)
+(0, 2)
+(0, 0)
+(0, 2)
+(0, 0)
+(0, 2)
+*** FAIL: test_cases\q8\2-tinygrid-noisy.test
+***     Q-Values at iteration 3 for action 'exit' are NOT correct.   Student solution:
+***     	q_values_k_3_action_exit: """
+***                 0.0000
+***                illegal
+***                 2.0000
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_3_action_exit: """
+***                 0.0000
+***                illegal
+***                 1.9000
+***     """
+***     
+***     
+***     For more details to help you debug, see test output file test_cases\q8\2-tinygrid-noisy.test_output
+***     
+***     
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+(2, 5)
+(0, 3)
+(0, 5)
+(0, 1)
+(2, 4)
+(0, 5)
+(0, 4)
+(0, 3)
+(2, 2)
+(2, 5)
+(0, 5)
+(0, 5)
+(2, 5)
+(0, 3)
+(2, 2)
+(2, 3)
+(2, 5)
+(0, 2)
+(2, 5)
+(0, 1)
+(0, 2)
+(2, 5)
+(0, 1)
+(2, 5)
+(0, 3)
+(0, 4)
+(0, 4)
+(0, 3)
+(2, 1)
+(1, 0)
+(1, 6)
+(0, 2)
+(1, 0)
+(1, 0)
+(2, 5)
+(2, 5)
+(0, 3)
+(0, 5)
+(2, 4)
+(2, 2)
+(1, 0)
+(0, 1)
+(0, 1)
+(2, 2)
+(1, 6)
+(2, 4)
+(0, 3)
+(0, 1)
+(2, 5)
+(0, 4)
+(2, 5)
+(0, 5)
+(1, 6)
+(0, 4)
+(0, 2)
+(2, 1)
+(2, 2)
+(0, 5)
+(1, 6)
+(0, 4)
+(2, 1)
+(0, 4)
+(0, 5)
+(0, 1)
+(0, 2)
+(2, 2)
+(2, 2)
+(2, 4)
+(1, 0)
+(1, 0)
+(2, 4)
+(0, 5)
+(0, 3)
+(2, 2)
+(2, 2)
+(2, 1)
+(2, 1)
+(2, 4)
+(2, 4)
+(0, 3)
+(0, 3)
+(2, 2)
+(2, 2)
+(2, 1)
+(2, 2)
+(1, 6)
+(0, 4)
+(0, 3)
+(0, 5)
+(0, 4)
+(1, 6)
+(0, 3)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(0, 5)
+(1, 0)
+(1, 6)
+(2, 1)
+(2, 2)
+(2, 3)
+(2, 4)
+(2, 5)
+*** FAIL: test_cases\q8\3-bridge.test
+***     Q-Values at iteration 500 for action 'north' are NOT correct.   Student solution:
+***     	q_values_k_500_action_north: """
+***             __________      illegal   __________
+***                illegal     -17.3400      illegal
+***                illegal      -1.4701      illegal
+***                illegal      -0.3126      illegal
+***                illegal      -2.6324      illegal
+***                illegal      -0.9395      illegal
+***             __________      illegal   __________
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_500_action_north: """
+***             __________      illegal   __________
+***                illegal      -5.8648      illegal
+***                illegal      -0.7995      illegal
+***                illegal      -0.1671      illegal
+***                illegal      -1.2642      illegal
+***                illegal      -0.5871      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     Q-Values at iteration 500 for action 'east' are NOT correct.   Student solution:
+***     	q_values_k_500_action_east: """
+***             __________      illegal   __________
+***                illegal     -30.6264      illegal
+***                illegal     -64.6000      illegal
+***                illegal      -5.2445      illegal
+***                illegal    -134.3491      illegal
+***                illegal     -97.7500      illegal
+***             __________      illegal   __________
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_500_action_east: """
+***             __________      illegal   __________
+***                illegal     -17.0676      illegal
+***                illegal     -26.5534      illegal
+***                illegal      -3.6957      illegal
+***                illegal     -43.5952      illegal
+***                illegal     -31.6884      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     Q-Values at iteration 500 for action 'exit' are NOT correct.   Student solution:
+***     	q_values_k_500_action_exit: """
+***             __________      26.0000   __________
+***              -320.0000      illegal    -330.0000
+***              -360.0000      illegal    -270.0000
+***              -210.0000      illegal    -330.0000
+***              -340.0000      illegal    -200.0000
+***              -250.0000      illegal    -340.0000
+***             __________       3.0000   __________
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_500_action_exit: """
+***             __________       9.3539   __________
+***               -96.5663      illegal     -96.9097
+***               -97.7472      illegal     -94.1850
+***               -89.0581      illegal     -96.9097
+***               -97.2187      illegal     -87.8423
+***               -92.8210      illegal     -97.2187
+***             __________       0.9576   __________
+***     """
+***     
+***     Q-Values at iteration 500 for action 'south' are NOT correct.   Student solution:
+***     	q_values_k_500_action_south: """
+***             __________      illegal   __________
+***                illegal     -15.5905      illegal
+***                illegal     -17.0319      illegal
+***                illegal      -9.9482      illegal
+***                illegal     -17.0000      illegal
+***                illegal     -11.0330      illegal
+***             __________      illegal   __________
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_500_action_south: """
+***             __________      illegal   __________
+***                illegal      -6.8377      illegal
+***                illegal      -6.7277      illegal
+***                illegal      -3.4723      illegal
+***                illegal      -8.4015      illegal
+***                illegal      -5.5718      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     Q-Values at iteration 500 for action 'west' are NOT correct.   Student solution:
+***     	q_values_k_500_action_west: """
+***             __________      illegal   __________
+***                illegal     -89.5314      illegal
+***                illegal    -136.0053      illegal
+***                illegal    -111.3500      illegal
+***                illegal     -34.8553      illegal
+***                illegal     -43.5670      illegal
+***             __________      illegal   __________
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_500_action_west: """
+***             __________      illegal   __________
+***                illegal     -27.0626      illegal
+***                illegal     -39.0610      illegal
+***                illegal     -40.5887      illegal
+***                illegal     -16.2839      illegal
+***                illegal     -20.7770      illegal
+***             __________      illegal   __________
+***     """
+***     
+***     
+***     For more details to help you debug, see test output file test_cases\q8\3-bridge.test_output
+***     
+***     
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 1)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+(0, 1)
+(0, 3)
+(0, 1)
+(0, 1)
+(0, 1)
+(2, 2)
+(0, 0)
+(0, 4)
+(2, 4)
+(0, 2)
+(0, 0)
+(0, 4)
+(0, 1)
+(0, 3)
+(0, 3)
+(0, 2)
+(2, 4)
+(2, 2)
+(0, 0)
+(2, 4)
+(0, 0)
+(2, 2)
+(2, 4)
+(2, 2)
+(2, 4)
+(0, 3)
+(2, 4)
+(0, 0)
+(0, 3)
+(0, 0)
+(2, 4)
+(0, 4)
+(2, 4)
+(0, 1)
+(2, 2)
+(0, 1)
+(0, 2)
+(2, 4)
+(2, 2)
+(0, 1)
+(0, 3)
+(2, 2)
+(0, 4)
+(2, 4)
+(0, 3)
+(0, 3)
+(0, 1)
+(0, 2)
+(2, 4)
+(0, 2)
+(2, 2)
+(2, 4)
+(2, 4)
+(2, 2)
+(2, 4)
+(0, 1)
+(2, 2)
+(2, 4)
+(0, 0)
+(2, 4)
+(2, 2)
+(0, 4)
+(0, 2)
+(0, 4)
+(0, 3)
+(0, 3)
+(2, 4)
+(0, 3)
+(0, 3)
+(0, 1)
+(0, 4)
+(0, 0)
+(0, 3)
+(2, 4)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 0)
+(2, 4)
+(0, 3)
+(0, 2)
+(0, 0)
+(0, 2)
+(0, 3)
+(0, 2)
+(2, 4)
+(0, 1)
+(0, 2)
+(0, 2)
+(0, 1)
+(0, 1)
+(2, 2)
+(0, 3)
+(2, 2)
+(2, 2)
+(2, 2)
+(0, 1)
+(0, 1)
+(2, 2)
+(2, 2)
+(2, 4)
+(2, 4)
+(0, 4)
+(0, 0)
+(2, 2)
+(0, 2)
+(0, 0)
+(0, 4)
+(0, 4)
+(2, 4)
+(0, 2)
+(2, 2)
+(0, 4)
+(2, 2)
+(0, 1)
+(0, 3)
+(0, 2)
+(0, 2)
+(0, 1)
+(2, 4)
+(0, 2)
+(0, 2)
+(0, 4)
+(0, 2)
+(2, 2)
+(2, 2)
+(2, 2)
+(2, 2)
+(0, 0)
+(0, 1)
+(2, 2)
+(0, 3)
+(0, 2)
+(0, 2)
+(2, 2)
+(2, 2)
+(0, 0)
+(0, 2)
+(0, 4)
+(0, 4)
+(2, 4)
+(0, 0)
+(0, 2)
+(2, 4)
+(0, 1)
+(0, 0)
+(0, 4)
+(0, 0)
+(2, 4)
+(2, 2)
+(0, 3)
+(0, 0)
+(2, 2)
+(2, 2)
+(0, 3)
+(0, 2)
+(2, 2)
+(0, 2)
+(2, 4)
+(2, 2)
+(0, 0)
+(2, 4)
+(2, 4)
+(0, 1)
+(0, 1)
+(2, 4)
+(2, 4)
+(2, 2)
+(0, 2)
+(2, 2)
+(0, 2)
+(0, 1)
+(2, 2)
+(0, 4)
+(0, 4)
+(2, 4)
+(0, 0)
+(0, 2)
+(0, 3)
+(0, 3)
+(2, 2)
+(0, 4)
+(0, 0)
+(2, 2)
+(0, 2)
+(2, 2)
+(0, 3)
+(0, 3)
+(0, 4)
+(0, 0)
+(0, 1)
+(0, 3)
+(2, 2)
+(0, 3)
+(0, 2)
+(0, 4)
+(0, 2)
+(0, 3)
+(2, 2)
+(0, 4)
+(0, 2)
+(0, 0)
+(0, 3)
+(0, 0)
+(0, 1)
+(0, 4)
+(0, 1)
+(2, 4)
+(2, 4)
+(2, 2)
+(0, 4)
+(0, 4)
+(0, 1)
+(0, 0)
+(0, 1)
+(2, 4)
+(0, 4)
+(2, 4)
+(0, 0)
+(2, 4)
+(2, 2)
+(0, 1)
+(2, 2)
+(2, 2)
+(0, 2)
+(2, 4)
+(2, 2)
+(0, 2)
+(0, 3)
+(2, 2)
+(2, 4)
+(0, 1)
+(0, 4)
+(2, 2)
+(2, 2)
+(2, 4)
+(0, 2)
+(2, 4)
+(2, 4)
+(0, 3)
+(2, 2)
+(2, 2)
+(0, 4)
+(2, 2)
+(0, 4)
+(0, 3)
+(2, 4)
+(2, 2)
+(2, 4)
+(0, 2)
+(2, 4)
+(2, 2)
+(0, 0)
+(0, 0)
+(0, 1)
+(0, 4)
+(2, 2)
+(0, 4)
+(2, 4)
+(0, 1)
+(2, 4)
+(0, 3)
+(0, 4)
+(2, 4)
+(2, 4)
+(2, 2)
+(0, 4)
+(0, 1)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 1)
+(0, 2)
+(2, 2)
+(0, 0)
+(0, 4)
+(2, 4)
+(2, 2)
+(2, 2)
+(0, 3)
+(2, 2)
+(0, 1)
+(0, 2)
+(0, 2)
+(2, 2)
+(0, 1)
+(2, 4)
+(0, 2)
+(0, 1)
+(0, 1)
+(0, 0)
+(0, 2)
+(2, 2)
+(2, 4)
+(0, 0)
+(0, 4)
+(0, 3)
+(2, 2)
+(2, 4)
+(0, 0)
+(2, 4)
+(0, 2)
+(2, 4)
+(0, 4)
+(0, 1)
+(2, 2)
+(2, 4)
+(2, 4)
+(0, 4)
+(0, 4)
+(2, 4)
+(2, 2)
+(0, 2)
+(0, 2)
+(2, 2)
+(0, 0)
+(0, 3)
+(0, 4)
+(0, 3)
+(0, 0)
+(2, 4)
+(0, 3)
+(0, 0)
+(0, 1)
+(0, 2)
+(0, 3)
+(0, 4)
+(2, 2)
+(2, 4)
+*** FAIL: test_cases\q8\4-discountgrid.test
+***     Q-Values at iteration 3000 for action 'north' are NOT correct.   Student solution:
+***     	q_values_k_3000_action_north: """
+***                illegal      99.4123      illegal     173.8871     119.6218
+***                illegal     127.1716   __________     112.3974      94.6684
+***                illegal      30.8806      illegal     133.4236      59.2513
+***                illegal       8.6374   __________   __________      35.8062
+***                illegal       0.0370       0.3101       1.8328      15.3228
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_3000_action_north: """
+***                illegal       4.3205      illegal       6.1517       3.8095
+***                illegal       4.4238   __________       5.2284       3.5129
+***                illegal       1.0694      illegal       3.6867       2.0418
+***                illegal       0.3423   __________   __________       1.0655
+***                illegal       0.0073       0.0079       0.0484       0.3768
+***     """
+***     
+***     Q-Values at iteration 3000 for action 'east' are NOT correct.   Student solution:
+***     	q_values_k_3000_action_east: """
+***                illegal     204.7655      illegal     108.8657     101.1260
+***                illegal      55.4562   __________     129.3943      71.1069
+***                illegal      26.5418      illegal      57.7188      48.8302
+***                illegal      10.5801   __________   __________      26.2986
+***                illegal       1.2304       0.2638       8.8143       9.1116
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_3000_action_east: """
+***                illegal       8.0584      illegal       3.7245       3.3947
+***                illegal       2.0499   __________       3.2373       2.1742
+***                illegal       0.8687      illegal       1.7398       1.2671
+***                illegal       0.2927   __________   __________       0.6669
+***                illegal       0.0239       0.0097       0.1611       0.2051
+***     """
+***     
+***     Q-Values at iteration 3000 for action 'exit' are NOT correct.   Student solution:
+***     	q_values_k_3000_action_exit: """
+***              -165.0000      illegal     130.0000      illegal      illegal
+***              -116.0000      illegal   __________      illegal      illegal
+***              -118.0000      illegal      14.5000      illegal      illegal
+***              -144.0000      illegal   __________   __________      illegal
+***              -110.0000      illegal      illegal      illegal      illegal
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_3000_action_exit: """
+***               -10.0000      illegal      10.0000      illegal      illegal
+***               -10.0000      illegal   __________      illegal      illegal
+***               -10.0000      illegal       1.0000      illegal      illegal
+***               -10.0000      illegal   __________   __________      illegal
+***                -9.9999      illegal      illegal      illegal      illegal
+***     """
+***     
+***     Q-Values at iteration 3000 for action 'south' are NOT correct.   Student solution:
+***     	q_values_k_3000_action_south: """
+***                illegal      -8.3630      illegal     101.8721     116.5280
+***                illegal       2.7952   __________      68.6423      57.1839
+***                illegal      10.4215      illegal      48.5491      21.0893
+***                illegal     -10.5760   __________   __________       2.4485
+***                illegal     -22.7931       0.1987       2.2056       4.2886
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_3000_action_south: """
+***                illegal      -0.3521      illegal       3.6948       2.9139
+***                illegal      -0.5605   __________       2.1346       1.5674
+***                illegal       0.2093      illegal       1.5389       0.5521
+***                illegal      -0.5505   __________   __________       0.1006
+***                illegal      -1.8501       0.0060       0.0514       0.1223
+***     """
+***     
+***     Q-Values at iteration 3000 for action 'west' are NOT correct.   Student solution:
+***     	q_values_k_3000_action_west: """
+***                illegal    -239.1495      illegal     105.8835     136.1973
+***                illegal    -105.7334   __________     138.0948     105.7855
+***                illegal    -195.8632      illegal      19.6956      45.3765
+***                illegal    -225.7662   __________   __________      11.6070
+***                illegal    -142.6514       0.9824       1.0117       4.1886
+***     """
+***     
+***        Correct solution:
+***     	q_values_k_3000_action_west: """
+***                illegal      -6.2001      illegal       7.5146       4.9014
+***                illegal      -5.4013   __________       4.0484       3.4126
+***                illegal      -8.0399      illegal       0.9653       1.6081
+***                illegal      -7.4767   __________   __________       0.3934
+***                illegal      -6.3432       0.0179       0.0188       0.1028
+***     """
+***     
+***     
+***     For more details to help you debug, see test output file test_cases\q8\4-discountgrid.test_output
+***     
+***     
+*** Tests failed.
+
+### Question q8: 0/3 ###
+
+
+Finished at 12:07:10
+
+Provisional grades
+==================
+Question q8: 0/3
+------------------
+Total: 0/3
+
+Your grades are NOT yet registered.  To register your grades you must
+submit your files to the edX website.  The grades obtained through the
+edX website are your final grades unless your submission was not in
+the spirit of the course,  such as if your submission simply hardcoded
+the answers to the tests.   We will screen for this after the deadline.
+
+*If you worked with a partner, you must both submit separately.*
+
